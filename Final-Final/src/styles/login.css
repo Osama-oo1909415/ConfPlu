@@ -1,0 +1,9 @@
+@media (max-width: 850px) {
+  .login-container {
+    width: auto;
+    padding: 0 5rem;
+  }
+  .login-container .img {
+    display: none;
+  }
+}

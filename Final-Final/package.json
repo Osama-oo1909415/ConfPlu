@@ -1,0 +1,29 @@
+{
+  "name": "confplus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "4.15.0",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sweetalert2": "^11.7.11"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0"
+  },
+  "prisma": {
+    "seed": "node ./prisma/seed.mjs"
+  }
+}
